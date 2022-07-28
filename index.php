@@ -12,6 +12,7 @@
                 <a href="http://localhost" class="logo__main">СИЛУШКА</a>
                 <a href="http://localhost" class="logo__sub"><br>ФИТНЕС-КЛУБ</a>
         </div>
+        Ты пидор
         <div class="header__right">
             <nav class="nav">
                 <ul class="nav__list">
