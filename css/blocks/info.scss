@@ -3,9 +3,10 @@
   width: 100%;
   height: 500px;
 
-  background-image: linear-gradient(0deg, rgba(30, 30, 30, 1), rgba(30, 30, 30, 0)), url('/assets/gym.jpg');
+  background-image: linear-gradient(0deg, rgba(30, 30, 30, 1), rgba(30, 30, 30, 0)), url('../../assets/gym.jpg');
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main__h {
