@@ -1,0 +1,25 @@
+.nav__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.nav__link {
+  display: block;
+  margin: 0;
+  padding: 24px;
+
+  top: 0;
+
+  font-size: 12px;
+  text-transform: uppercase;
+  color: $white;
+
+  transition: background-color ease-in-out .2s;
+
+  &:hover {
+    background-color: darken($black, 8%);
+  }
+}
