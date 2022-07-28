@@ -110,7 +110,6 @@ a {
   background-image: linear-gradient(0deg, rgb(30, 30, 30), rgba(30, 30, 30, 0)), url("/assets/gym.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .main__h {
