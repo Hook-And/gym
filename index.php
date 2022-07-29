@@ -8,7 +8,6 @@
 </head>
 <body>
     <div class="header">
-        ns gbljh
         <div class="header__left">
                 <a href="http://localhost" class="logo__main">СИЛУШКА</a>
                 <a href="http://localhost" class="logo__sub"><br>ФИТНЕС-КЛУБ</a>
