@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ну, например, СИЛУШКА.</title>
-    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="header">
@@ -32,9 +31,11 @@
             <button class="btn  btn--blue  btn--small" type="button">Оставить<br>заявку</button>
         </div>
     </div>
-    <?php
-        include ('php/bd.php');
-    ?>
+    <div class="main">
+        <div class="info">
+            <h1 class="main__h main__h--center">ФИТНЕС-КЛУБ<br>В СЕВАСТОПОЛЕ</h1>
+        </div>
+    </div>
     <div class="footer"></div>
 </body>
 </html>
