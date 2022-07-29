@@ -1,12 +1,18 @@
-let firstNumber
-let secondNumber
-
-function sum(num1, num2) {
-    const equal = num1 + num2
-    console.log(equal)
+const bugatti = {
+    mark: 'veyron',
+    speed: 300
 }
 
-firstNumber = 54
-secondNumber = 128
+const speedChanger = 75
 
-sum(firstNumber, secondNumber)
+function changeSpeed() {
+    console.log(bugatti)
+}
+
+function fnWithCallback(callbackFunction) {
+    callbackFunction()
+}
+
+console.log('Start')
+
+setTimeout(changeSpeed, 2000)
