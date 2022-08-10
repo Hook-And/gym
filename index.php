@@ -27,7 +27,7 @@
                     </li>
                 </ul>
                 <form action="" class="d-flex">
-                    <button class="btn btn-sm btn-primary fw-bold lh-sm px-4 rounded-pill shadow-sm mx-auto mx-md-0 my-2 my-md-0" style="box-shadow: 0 .125rem .25rem rgba(13,110,253,.075)!important">Отправить<br>заявку</button>
+                    <button class="btn btn-sm btn-primary fw-bold lh-sm px-4 rounded-pill shadow-sm mx-auto mx-md-0 my-1 my-md-0" style="box-shadow: 0 .125rem .25rem rgba(13,110,253,.075)!important">Отправить<br>заявку</button>
                 </form>
             </div>
         </nav>
