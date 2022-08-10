@@ -1,41 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
     <title>Ну, например, СИЛУШКА.</title>
 </head>
-<body>
-    <div class="header">
-        <div class="header__left">
-                <a href="http://localhost" class="logo__main">СИЛУШКА</a>
-                <a href="http://localhost" class="logo__sub"><br>ФИТНЕС-КЛУБ</a>
-        </div>
-        <div class="header__right">
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__list-items">
-                        <a class="nav__link" href="#">Главная</a>
+<body class="bg-dark">
+    <header class="sticky-top shadow" style="z-index: 1020;">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark px-3 px-md-5">
+            <a href="#" class="navbar-brand fw-bold fs-2 lh-sm">СИЛУШКА</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+                <ul class="navbar-nav me-0 me-md-4 my-auto text-uppercase fw-bold text-center text-md-start lh-base">
+                    <li class="nav-item ms-0 ms-md-4 mb-2 mb-md-0">
+                        <a class="text-decoration-none link-light" href="#">Главная</a>
                     </li>
-                    <li class="nav__list-items">
-                        <a class="nav__link" href="#">Стоимость</a>
+                    <li class="nav-item ms-0 ms-md-4 mb-2 mb-md-0">
+                        <a class="text-decoration-none link-light" href="#">Стоимость</a>
                     </li>
-                    <li class="nav__list-items">
-                        <a class="nav__link" href="#">Расписание</a>
-                    </li>
-                    <li class="nav__list-items">
-                        <a class="nav__link" href="#">Контакты</a>
+                    <li class="nav-item ms-0 ms-md-4 mb-2 mb-md-0">
+                        <a class="text-decoration-none link-light" href="#">Расписание</a>
                     </li>
                 </ul>
-            </nav>
-            <button class="btn  btn--blue  btn--small" type="button">Оставить<br>заявку</button>
+                <form action="" class="d-flex">
+                    <button class="btn btn-sm btn-primary fw-bold lh-sm px-4 rounded-pill shadow-sm mx-auto mx-md-0 my-2 my-md-0" style="box-shadow: 0 .125rem .25rem rgba(13,110,253,.075)!important">Отправить<br>заявку</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main style="z-index: 1000;">
+        <div class="row w-100 m-0 p-5" id="intro">
+            <div class="col-12 fw-bold fs-1 lh-sm text-uppercase my-auto text-light text-center text-md-start">
+                Фитнес-клуб<br>В Севастополе
+            </div>
         </div>
-    </div>
-    <div class="main">
-        <div class="info">
-            <h1 class="main__h main__h--center">ФИТНЕС-КЛУБ<br>В СЕВАСТОПОЛЕ</h1>
+        <div class="row">
+
         </div>
-    </div>
-    <div class="footer"></div>
+        <div class="row">
+
+        </div>
+    </main>
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
