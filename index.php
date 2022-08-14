@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Ну, например, СИЛУШКА.</title>
 </head>
-<body class="bg-light">
-    <header class="sticky-top" style="z-index: 1020;">
+<body class="bg-dark">
+    <header class="sticky-top shadow" style="z-index: 1020;">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark px-3 px-md-5">
             <a href="#" class="navbar-brand fw-bold fs-2 lh-sm">СИЛУШКА</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false">
