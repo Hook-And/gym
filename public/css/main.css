@@ -13,12 +13,33 @@
   background-size: cover;
 }
 
+.link-light {
+  transition: color ease-in-out 0.2s;
+}
+.link-light:hover {
+  color: #fefefe;
+}
+
 #intro__text {
   font-size: 4.5rem;
 }
 
 body {
   font-family: "Igra sans", sans-serif;
+}
+
+.flipped {
+  transform: scaleX(-1);
+}
+
+.info__arrows {
+  width: 10vh;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity ease-in-out 0.2s;
+}
+.info__arrows:hover {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=main.css.map */

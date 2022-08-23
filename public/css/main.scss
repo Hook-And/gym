@@ -16,10 +16,36 @@
   background-size: cover;
 }
 
+.link-light {
+    transition: color ease-in-out .2s;
+
+    &:hover {
+        color: darken(#FFFFFF, .30);
+    }
+}
+
 #intro__text {
   font-size: 4.5rem;
 }
 
 body {
     font-family: "Igra sans", sans-serif;
+}
+
+.flipped {
+    transform: scaleX(-1);
+}
+
+.info__arrows {
+    width: 10vh;
+
+    cursor: pointer;
+
+    opacity: .50;
+
+    transition: opacity ease-in-out .2s;
+
+    &:hover {
+        opacity: 1;
+    }
 }
