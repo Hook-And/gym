@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
     <title>Ну, например, СИЛУШКА.</title>
 </head>
 <body class="bg-dark">
@@ -33,10 +35,10 @@
     </nav>
 </header>
 <main style="z-index: 1000;">
-    <div class="row p-0 m-0" id="intro">
-        <div class="d-none d-md-flex justify-content-md-between w-100 px-5 m-0 align-items-center">
-            <img class="info__arrows flipped" src="assets/left_arrow.svg" alt="Стрелочка вправо">
-            <img class="info__arrows" src="assets/right_arrow.svg" alt="Стрелочка влево">
+    <div class="row p-0 m-0 intro">
+        <div class="d-none d-md-flex justify-content-md-end w-100 px-5 m-0 mb-md-3 align-items-end">
+            <img class="info__arrows left__arrow" src="assets/left_arrow.svg" alt="Стрелочка влево">
+            <img class="info__arrows right__arrow" src="assets/right_arrow.svg" alt="Стрелочка вправо">
         </div>
     </div>
     <div class="row">
@@ -46,6 +48,5 @@
 
     </div>
 </main>
-<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
