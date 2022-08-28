@@ -7,7 +7,7 @@ $(function (){
 
     leftArrow.click(() => {
         images = changeImage(images.length - 1, info, images, url)
-    });
+    })
 
     rightArrow.click(() => {
         images = changeImage(0, info, images, url)
