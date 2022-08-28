@@ -4,35 +4,41 @@
   font-weight: 400;
   src: local("Igra"), url("../assets/fonts/IgraSans.otf") format("otf");
 }
-#intro {
+.intro {
   max-width: 100%;
   height: 80vh;
-  background-image: linear-gradient(0deg, rgb(33, 37, 41), rgba(33, 37, 41, 0)), url("../assets/infobg.jpg");
+  background-image: linear-gradient(0deg, rgb(30, 30, 30), rgba(30, 30, 30, 0)), url("../assets/infobg.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
 }
 
-.link-light {
-  transition: color ease-in-out 0.2s;
-}
-.link-light:hover {
-  color: #fefefe;
+.js-new-intro-0 {
+  background-image: linear-gradient(0deg, rgb(30, 30, 30), rgba(30, 30, 30, 0)), url("../assets/infobg.jpg");
 }
 
-#intro__text {
-  font-size: 4.5rem;
+.js-new-intro-1 {
+  background-image: linear-gradient(0deg, rgb(30, 30, 30), rgba(30, 30, 30, 0)), url("../assets/1.png");
+}
+
+.js-new-intro-2 {
+  background-image: linear-gradient(0deg, rgb(30, 30, 30), rgba(30, 30, 30, 0)), url("../assets/2.png");
+}
+
+.js-new-intro-3 {
+  background-image: linear-gradient(0deg, rgb(30, 30, 30), rgba(30, 30, 30, 0)), url("../assets/3.png");
+}
+
+.js-new-intro-4 {
+  background-image: linear-gradient(0deg, rgb(30, 30, 30), rgba(30, 30, 30, 0)), url("../assets/4.png");
 }
 
 body {
   font-family: "Igra sans", sans-serif;
 }
 
-.flipped {
-  transform: scaleX(-1);
-}
-
 .info__arrows {
+  margin-left: 5vh;
   width: 10vh;
   cursor: pointer;
   opacity: 0.5;
