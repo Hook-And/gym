@@ -14,9 +14,11 @@ $(function (){
     })
 
     function changeImage(elementPosition, htmlElement, imagesArray, url) {
+        htmlElement.hide()
         const tempElement = imagesArray.splice(elementPosition, 1)
         imagesArray.splice(imagesArray.length - elementPosition, 0, tempElement)
         htmlElement.css("background-image", "linear-gradient(0deg, rgb(30, 30, 30), rgba(30, 30, 30, 0)), url(\"" + url + imagesArray[0] + "\")")
+        htmlElement.fadeIn(500)
 
         return imagesArray
     }
