@@ -10,7 +10,7 @@
     <title>Ну, например, СИЛУШКА.</title>
 </head>
 <body class="bg-dark">
-<header class="sticky-top shadow" style="z-index: 1020;">
+<header class="sticky-top shadow">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark px-3 px-md-5">
         <a href="#" class="navbar-brand fw-bold fs-2 lh-sm text-danger">СИЛУШКА</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false">
@@ -28,24 +28,16 @@
                     <a class="text-decoration-none link-light" href="#">Расписание</a>
                 </li>
             </ul>
-            <form action="" class="d-flex">
-                <button class="btn btn-sm btn-danger lh-sm px-4 rounded-pill shadow-sm mx-auto mx-md-0 my-1 my-md-0" style="box-shadow: 0 .125rem .25rem rgba(249,50,44,.075)!important">Отправить<br>заявку</button>
-            </form>
+            <button class="btn btn-sm btn-danger lh-sm px-4 rounded-pill shadow-sm mx-auto mx-md-0 my-1 my-md-0" style="box-shadow: 0 .125rem .25rem rgba(249,50,44,.075)!important">Отправить<br>заявку</button>
         </div>
     </nav>
 </header>
-<main style="z-index: 1000;">
+<main>
     <div class="row p-0 m-0 intro">
         <div class="d-none d-md-flex justify-content-md-end w-100 px-5 m-0 mb-md-3 align-items-end">
             <img class="info__arrows left__arrow" src="assets/left_arrow.svg" alt="Стрелочка влево">
             <img class="info__arrows right__arrow" src="assets/right_arrow.svg" alt="Стрелочка вправо">
         </div>
-    </div>
-    <div class="row">
-
-    </div>
-    <div class="row">
-
     </div>
 </main>
 </body>
