@@ -15,7 +15,7 @@ class UserController extends Controller
     public function postReg(Request $request)
     {
         if(User::where('email',$request->input('email'))->exists()){
-            return redirect(route('user.reg'))->withErrors(['email'=>'Аккаунт с такой почтоё уже существует']);
+            return redirect(route('user.reg'))->withErrors(['email'=>'Аккаунт с такой почтой уже существует']);
         }
         $user = User::create([
             'email'    => $request->input('email'),
