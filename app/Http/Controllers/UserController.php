@@ -40,7 +40,7 @@ class UserController extends Controller
             'password' => ['required'],
         ]);
 
-        if(Auth::attempt($validateFields,'remember'))
+        if(Auth::attempt($validateFields,$request->input('remember')))
         {
             return redirect(route('user.private'));
         }
