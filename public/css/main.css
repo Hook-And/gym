@@ -1,8 +1,8 @@
 @font-face {
-  font-family: "Igra";
+  font-family: "Igra Sans";
   font-style: normal;
   font-weight: 400;
-  src: local("Igra"), url("../assets/fonts/IgraSans.otf") format("otf");
+  src: local("Igra"), url("../assets/fonts/IgraSans.woff") format("woff");
 }
 .intro {
   max-width: 100%;
@@ -11,26 +11,6 @@
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
-}
-
-.js-new-intro-0 {
-  background-image: linear-gradient(0deg, rgb(30, 30, 30), rgba(30, 30, 30, 0)), url("../assets/infobg.jpg");
-}
-
-.js-new-intro-1 {
-  background-image: linear-gradient(0deg, rgb(30, 30, 30), rgba(30, 30, 30, 0)), url("../assets/1.png");
-}
-
-.js-new-intro-2 {
-  background-image: linear-gradient(0deg, rgb(30, 30, 30), rgba(30, 30, 30, 0)), url("../assets/2.png");
-}
-
-.js-new-intro-3 {
-  background-image: linear-gradient(0deg, rgb(30, 30, 30), rgba(30, 30, 30, 0)), url("../assets/3.png");
-}
-
-.js-new-intro-4 {
-  background-image: linear-gradient(0deg, rgb(30, 30, 30), rgba(30, 30, 30, 0)), url("../assets/4.png");
 }
 
 body {
