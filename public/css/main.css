@@ -28,4 +28,8 @@ body {
   opacity: 1;
 }
 
-/*# sourceMappingURL=main.css.map */
+.form-input-reglog {
+  background-color: #393939 !important;
+  border-color: #393939 !important;
+  border-radius: 15px;
+}/*# sourceMappingURL=main.css.map */

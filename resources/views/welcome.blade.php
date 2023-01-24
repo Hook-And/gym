@@ -1,10 +1,10 @@
-<!doctype html>
-<html lang="ru">
+<!DOCTYPE html>
+<html lang="ru" />
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/main.js"></script>
@@ -40,17 +40,23 @@
 </header>
 <main style="z-index: 1000;">
     <div class="modal fade" id="profileModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header justify-content-center">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header justify-content-center border-0">
                     <h3 class="modal-title text-uppercase" id="profileModalLabel">Регистрация</h3>
                 </div>
                 <div class="modal-body">
-                    Просто текст
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                    <button type="button" class="btn btn-primary">Сохранить изменения</button>
+                    <div class="container-fluid text-center">
+                       <form id=" class="justify-content-center" action="#" method="get">
+                            <input type="text" class="form-control form-control-lg fs-6 mb-3 py-3 bg-success form-input-reglog" placeholder="ИМЯ" />
+                            <input type="text" class="form-control form-control-lg fs-6 mb-3 py-3 form-input-reglog" placeholder="ФАМИЛИЯ" />
+                            <input type="email" class="form-control form-control-lg fs-6 mb-3 py-3 form-input-reglog" placeholder="ПОЧТА" />
+                            <input type="password" class="form-control form-control-lg fs-6 mb-3 py-3 form-input-reglog" placeholder="ПАРОЛЬ" />
+                            <input type="password" class="form-control form-control-lg fs-6 mb-3 py-3 form-input-reglog" placeholder="ПОВТОРИТЕ ПАРОЛЬ" />
+                            <input type="submit" class="btn btn-lg btn-danger text-uppercase mt-4 rounded-pill" value="ЗАРЕГИСТРИРОВАТЬСЯ"/>
+                       </form>
+                       <p class="fs-6 text-uppercase mb-4">Уже есть аккаунт? <a href="#" class="text-decoration-none link-danger">Войти</a></p>
+                    </div>
                 </div>
             </div>
         </div>
