@@ -1,3 +1,6 @@
+import Swiper from 'swiper/bundle';
+import 'swiper/css/bundle';
+
 $(function (){
     const info = $('.intro')
     const leftArrow = $('.left__arrow')
@@ -25,5 +28,13 @@ $(function (){
 })
 
 
-
-
+const swiper = new Swiper('.swiper', {
+    slidesPerView: 3,
+    spaceBetween: 100,
+    loop: true,
+    grabCursor: true,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});
