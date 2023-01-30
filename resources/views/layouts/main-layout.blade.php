@@ -21,7 +21,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
                 <ul class="navbar-nav me-0 me-md-4 text-center text-md-start fw-bold lh-base">
                     <li class="nav-item ms-0 ms-md-4 mb-2 my-md-auto">
-                        <a class="text-decoration-none link-light" href="#">Главная</a>
+                        <a class="nav-item ms-0 ms-md-4 mb-2 my-md-auto text-decoration-none link-light" href="#">Главная</a>
                     </li>
                     <li class="nav-item ms-0 ms-md-4 mb-2 my-md-auto">
                         <a class="text-decoration-none link-light" href="#">Тренеры</a>
@@ -33,7 +33,7 @@
                         <a class="text-decoration-none link-light" href="#">Услуги</a>
                     </li>
                     <li class="d-none d-lg-block nav-item ms-0 ms-md-4 mb-2 mb-md-0">
-                        <a class='btn btn-warning btn-lg rounded-pill text-decoration-none py-2 px-4 fw-bold lh-base fs-6' href="#">Записаться</a>
+                        <a class='btn btn-warning btn-lg rounded-pill text-decoration-none py-2 px-4 fw-bold lh-base fs-6' href="#inviteForm">Записаться</a>
                     </li>
                 </ul>
                 <a class='text-decoration-none p-0' data-bs-toggle="modal" href="#profileModal_log" role="button"><img class="nav__profile" src="/assets/icons/user_profile.svg" alt="Sign In"></a>
