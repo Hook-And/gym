@@ -72,29 +72,64 @@
     </section>
     <section class="row mx-3 mx-md-4 mx-xl-5 mb-md-5">
         <h1 class="mb-4 mb-md-5 fw-bold">Выберите себе тренера сами</h1>
-        <div class="swiper">
+        <div class="swiper mb-1">
             <div class="swiper-wrapper">
               <div class="swiper-slide card">
                 <img src="/assets/trainers/2.jpg" />
+                <p class="mt-3 fs-4">Рустем</p>
               </div>
               <div class="swiper-slide card">
                 <img src="/assets/trainers/1.jpg" />
+                <p class="mt-3 fs-4">Валерия</p>
               </div>
               <div class="swiper-slide card">
                 <img src="/assets/trainers/3.jpg" />
+                <p class="mt-3 fs-4">Елена</p>
               </div>
             </div>
             <button class="swiper-button-next"></button>
             <button class="swiper-button-prev"></button>
           </div>
-        <div class="">
-
         </div>
+        <p class="trainers-info mb-4">8 лет в профессиональном спорте<br>
+            Выигрывал первенство Крыма и Севастополя по боксу<br>
+            Двукратный чемпион ЮФО Крыма и Севастополя по армреслингу</p>
+        <a style="width: 15%; margin: 0 auto 0 auto;" class='btn btn-warning rounded-pill text-decoration-none py-2 px-4 fw-bold lh-base fs-6' href = '#inviteForm'">Записаться</a>
     </section>
     <section class="row mx-3 mx-md-4 mx-xl-5 mb-md-5">
         <h1 class="mb-4 mb-md-5 fw-bold">Наше пространство</h1>
     </section>
-    <section class="row mx-3 mx-md-4 mx-xl-5 mb-md-5">
+    <section class="row mx-3 mx-md-4 mx-xl-5 mb-md-5" id="inviteForm">
         <h1 class="mb-4 mb-md-5 fw-bold">Запишитесь на бесплатную пробную тренировку</h1>
+        <div class="d-flex align-items-center">
+            <form class="d-flex align-items-center form_main-img" action="#" method="">
+                <span>
+                    <input class="form-control fs-6 mt-5 mb-5 py-2 form-input-free bg-transparent px-0 text-light" type="text" placeholder="Введите имя">
+                    <input class="form-control fs-6 py-2 form-input-free bg-transparent px-0 text-light" type="tel" placeholder="Введите номер телефона">
+                </span>
+                <span>
+                    <input class="form-control fs-6 mt-5 mb-5 py-2 form-input-free bg-transparent px-0 text-light" type="email" placeholder="Введите E-mail">
+                    <div class="d-flex fs-6 py-2 form-input-free bg-transparent px-0 cursor-point">
+                        <label id="trainers_label" class="cursor-point" for="trainers">Выберите тренера:</label>
+                        <select class="form-select fs-6 mb-0 py-0 bg-transparent px-0 cursor-point" name="trainers" id="trainers">
+                            <option value="rustem">Рустем</option>
+                            <option value="elena">Елена</option>
+                            <option value="valeria">Валерия</option>
+                        </select>
+                    </div>
+                </span>
+                <span class="form-check break">
+                    <input class="form-check-input cursor-point" type="checkbox" name="personal-data" id="personal-data">
+                    <label class="form-check-label cursor-point" for="personal-data">Согласен(-а) на обработку персональных данных</label>
+                </span>
+                <span class="form-check break">
+                    <input class="form-check-input cursor-point" type="checkbox" name="politics" id="politics">
+                    <label class="form-check-label cursor-point" for="politics">Согласен(-а) с <a class="link-light" href="#">Политикой конфиденциальности</a></label>
+                </span>
+                <span class="break">
+                    <input type="submit" value="Записаться" class="btn btn-warning btn-lg mt-4 mb-5 rounded-pill text-decoration-none py-2 px-4 fw-bold lh-base fs-6">
+                </span>
+            </form>
+        </div>
     </section>
 @endsection
