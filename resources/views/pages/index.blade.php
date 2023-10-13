@@ -102,21 +102,21 @@
     <section class="row mx-3 mx-md-4 mx-xl-5 mb-md-5" id="inviteForm">
         <h1 class="mb-4 mb-md-5 fw-bold">Запишитесь на бесплатную пробную тренировку</h1>
         <div class="d-flex align-items-center">
-            <form class="d-flex align-items-center form_main-img" action="#" method="">
+            <form class="d-flex form_main-img" action="#" method="">
                 <span>
                     <input class="form-control fs-6 mt-5 mb-5 py-2 form-input-free bg-transparent px-0 text-light" type="text" placeholder="Введите имя">
                     <input class="form-control fs-6 py-2 form-input-free bg-transparent px-0 text-light" type="tel" placeholder="Введите номер телефона">
                 </span>
                 <span>
                     <input class="form-control fs-6 mt-5 mb-5 py-2 form-input-free bg-transparent px-0 text-light" type="email" placeholder="Введите E-mail">
-                    <div class="d-flex fs-6 py-2 form-input-free bg-transparent px-0 cursor-point">
+                    <!--<div class="d-flex fs-6 py-2 form-input-free bg-transparent px-0 cursor-point">
                         <label id="trainers_label" class="cursor-point" for="trainers">Выберите тренера:</label>
                         <select class="form-select fs-6 mb-0 py-0 bg-transparent px-0 cursor-point" name="trainers" id="trainers">
                             <option value="rustem">Рустем</option>
                             <option value="elena">Елена</option>
                             <option value="valeria">Валерия</option>
                         </select>
-                    </div>
+                    </div>-->
                 </span>
                 <span class="form-check break">
                     <input class="form-check-input cursor-point" type="checkbox" name="personal-data" id="personal-data">
