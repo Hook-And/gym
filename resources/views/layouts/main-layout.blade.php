@@ -14,7 +14,7 @@
     <header class="mx-lg-0 sticky-md-top shadow" style="z-index: 1020;">
         <nav class="navbar navbar-expand-md navbar-dark d-flex justify-content-between justify-content-md-start bg-dark px-3 px-md-5">
             <a class="d-md-none text-decoration-none link-light fw-bold fst-italic fs-7 my-auto" href="#"><img class="me-2 nav__icon" src="/assets/icons/mapmark.svg" alt="Значок метки на карте">Острякова</a>
-            <a href="#" class="navbar-brand fw-bold fst-italic fs-1 lh-sm text-warning">Силушка</a>
+            <a href="#" class="navbar-brand fw-bold fst-italic fs-1 lh-sm text-warning">Фитнес-клуб</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -61,10 +61,10 @@
             <div class="info_col">
                 <h3 class="mb-4 fw-light">Контакты</h3>
                 <div class="d-flex align-items-center mb-4">
-                    <a class="m-0 text-decoration-none link-light" href="#">silushka.fit@gmail.com</a>
+                    <a class="m-0 text-decoration-none link-light" href="#">fitness-club@gmail.com</a>
                 </div>
                 <div class="d-flex align-items-center mb-4">
-                    <a class="m-0 text-decoration-none link-light" href="#">+79780400677</a>
+                    <a class="m-0 text-decoration-none link-light" href="#">+7 (900) 909-99-99</a>
                 </div>
             </div>
             <div class="info_col">
@@ -90,7 +90,7 @@
                     <a class="m-0 text-decoration-none link-light" href="#">Правила посещения клуба</a>
                 </div>
                 <div class="d-flex align-items-center mb-4">
-                    <a class="m-0 text-decoration-none link-light" href="#">Острякова, 110, Севастополь</a>
+                    <a class="m-0 text-decoration-none link-light" href="#">Адрес</a>
                 </div>
             </div>
         </div>

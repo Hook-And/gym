@@ -48,7 +48,7 @@ const jsonFromApi = {
         {id: 3, width: 250},
     ],
     images: [
-        {id: 1, column: 1, url: '1.png', relativeHeight: '50%'},
+        {id: 1, column: 1, url: '1.png', relativeHeight: '100%'},
         {id: 2, column: 1, url: '2.png', relativeHeight: '50%'},
         {id: 3, column: 2, url: '3.png', relativeHeight: '55%'},
         {id: 4, column: 2, url: '4.png', relativeHeight: '45%'},
